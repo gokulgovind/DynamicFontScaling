@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55500D8B2692ECBF00E5B54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55500D8A2692ECBF00E5B54C /* AppDelegate.swift */; };
+		55500D8D2692ECBF00E5B54C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55500D8C2692ECBF00E5B54C /* SceneDelegate.swift */; };
+		55500D8F2692ECBF00E5B54C /* SystemFontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55500D8E2692ECBF00E5B54C /* SystemFontController.swift */; };
+		55500D922692ECBF00E5B54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55500D902692ECBF00E5B54C /* Main.storyboard */; };
+		55500D942692ECC100E5B54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55500D932692ECC100E5B54C /* Assets.xcassets */; };
+		55500D972692ECC100E5B54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55500D952692ECC100E5B54C /* LaunchScreen.storyboard */; };
+		55500DA62692EF3400E5B54C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55500D9F2692EF3400E5B54C /* Lato-Bold.ttf */; };
+		55500DA72692EF3400E5B54C /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55500DA02692EF3400E5B54C /* Lato-Light.ttf */; };
+		55500DA82692EF3400E5B54C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55500DA12692EF3400E5B54C /* Lato-Regular.ttf */; };
+		55500DA92692EF3400E5B54C /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55500DA22692EF3400E5B54C /* Lato-BoldItalic.ttf */; };
+		55500DAA2692EF3400E5B54C /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55500DA32692EF3400E5B54C /* Lato-Semibold.ttf */; };
+		55500DAB2692EF3400E5B54C /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55500DA42692EF3400E5B54C /* Lato-Medium.ttf */; };
+		55500DAC2692EF3400E5B54C /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55500DA52692EF3400E5B54C /* Lato-Italic.ttf */; };
+		55500DB22692FBEF00E5B54C /* CustomFontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55500DB12692FBEF00E5B54C /* CustomFontController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55500D872692ECBF00E5B54C /* FontScalling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontScalling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55500D8A2692ECBF00E5B54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55500D8C2692ECBF00E5B54C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55500D8E2692ECBF00E5B54C /* SystemFontController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFontController.swift; sourceTree = "<group>"; };
+		55500D912692ECBF00E5B54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55500D932692ECC100E5B54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55500D962692ECC100E5B54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55500D982692ECC100E5B54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55500D9F2692EF3400E5B54C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		55500DA02692EF3400E5B54C /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		55500DA12692EF3400E5B54C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		55500DA22692EF3400E5B54C /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		55500DA32692EF3400E5B54C /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		55500DA42692EF3400E5B54C /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		55500DA52692EF3400E5B54C /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		55500DB12692FBEF00E5B54C /* CustomFontController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55500D842692ECBF00E5B54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55500D7E2692ECBF00E5B54C = {
+			isa = PBXGroup;
+			children = (
+				55500D892692ECBF00E5B54C /* FontScalling */,
+				55500D882692ECBF00E5B54C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55500D882692ECBF00E5B54C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55500D872692ECBF00E5B54C /* FontScalling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55500D892692ECBF00E5B54C /* FontScalling */ = {
+			isa = PBXGroup;
+			children = (
+				55500D8A2692ECBF00E5B54C /* AppDelegate.swift */,
+				55500D8C2692ECBF00E5B54C /* SceneDelegate.swift */,
+				55500D8E2692ECBF00E5B54C /* SystemFontController.swift */,
+				55500DB12692FBEF00E5B54C /* CustomFontController.swift */,
+				55500D902692ECBF00E5B54C /* Main.storyboard */,
+				55500D932692ECC100E5B54C /* Assets.xcassets */,
+				55500D952692ECC100E5B54C /* LaunchScreen.storyboard */,
+				55500D982692ECC100E5B54C /* Info.plist */,
+				55500DAE2692EF3900E5B54C /* Fonts */,
+			);
+			path = FontScalling;
+			sourceTree = "<group>";
+		};
+		55500DAE2692EF3900E5B54C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				55500D9F2692EF3400E5B54C /* Lato-Bold.ttf */,
+				55500DA22692EF3400E5B54C /* Lato-BoldItalic.ttf */,
+				55500DA52692EF3400E5B54C /* Lato-Italic.ttf */,
+				55500DA02692EF3400E5B54C /* Lato-Light.ttf */,
+				55500DA42692EF3400E5B54C /* Lato-Medium.ttf */,
+				55500DA12692EF3400E5B54C /* Lato-Regular.ttf */,
+				55500DA32692EF3400E5B54C /* Lato-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55500D862692ECBF00E5B54C /* FontScalling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55500D9B2692ECC100E5B54C /* Build configuration list for PBXNativeTarget "FontScalling" */;
+			buildPhases = (
+				55500D832692ECBF00E5B54C /* Sources */,
+				55500D842692ECBF00E5B54C /* Frameworks */,
+				55500D852692ECBF00E5B54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontScalling;
+			productName = FontScalling;
+			productReference = 55500D872692ECBF00E5B54C /* FontScalling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55500D7F2692ECBF00E5B54C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					55500D862692ECBF00E5B54C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 55500D822692ECBF00E5B54C /* Build configuration list for PBXProject "FontScalling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55500D7E2692ECBF00E5B54C;
+			productRefGroup = 55500D882692ECBF00E5B54C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55500D862692ECBF00E5B54C /* FontScalling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55500D852692ECBF00E5B54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55500DAC2692EF3400E5B54C /* Lato-Italic.ttf in Resources */,
+				55500DA72692EF3400E5B54C /* Lato-Light.ttf in Resources */,
+				55500DAA2692EF3400E5B54C /* Lato-Semibold.ttf in Resources */,
+				55500DA82692EF3400E5B54C /* Lato-Regular.ttf in Resources */,
+				55500D972692ECC100E5B54C /* LaunchScreen.storyboard in Resources */,
+				55500DAB2692EF3400E5B54C /* Lato-Medium.ttf in Resources */,
+				55500D942692ECC100E5B54C /* Assets.xcassets in Resources */,
+				55500D922692ECBF00E5B54C /* Main.storyboard in Resources */,
+				55500DA92692EF3400E5B54C /* Lato-BoldItalic.ttf in Resources */,
+				55500DA62692EF3400E5B54C /* Lato-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55500D832692ECBF00E5B54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55500D8F2692ECBF00E5B54C /* SystemFontController.swift in Sources */,
+				55500D8B2692ECBF00E5B54C /* AppDelegate.swift in Sources */,
+				55500D8D2692ECBF00E5B54C /* SceneDelegate.swift in Sources */,
+				55500DB22692FBEF00E5B54C /* CustomFontController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55500D902692ECBF00E5B54C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55500D912692ECBF00E5B54C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55500D952692ECC100E5B54C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55500D962692ECC100E5B54C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55500D992692ECC100E5B54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55500D9A2692ECC100E5B54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55500D9C2692ECC100E5B54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FontScalling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gokul.FontScalling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55500D9D2692ECC100E5B54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FontScalling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gokul.FontScalling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55500D822692ECBF00E5B54C /* Build configuration list for PBXProject "FontScalling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55500D992692ECC100E5B54C /* Debug */,
+				55500D9A2692ECC100E5B54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55500D9B2692ECC100E5B54C /* Build configuration list for PBXNativeTarget "FontScalling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55500D9C2692ECC100E5B54C /* Debug */,
+				55500D9D2692ECC100E5B54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55500D7F2692ECBF00E5B54C /* Project object */;
+}
